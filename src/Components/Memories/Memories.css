@@ -1,0 +1,81 @@
+.memories-wrapper {
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+}
+
+.image-below {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.underline {
+  background-color: #000000;
+  width: 30%;
+  height: 1px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* Portrait View Responsiveness */
+@media (max-width: 600px) {
+  .underline {
+    background-color: #000000;
+    width: 40%;
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .container1 {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Landscape and iPad View */
+@media (min-width: 601px) and (max-width: 750px) {
+  .underline {
+    background-color: #000000;
+    width: 40%;
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .container1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1194px) {
+  .container1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
