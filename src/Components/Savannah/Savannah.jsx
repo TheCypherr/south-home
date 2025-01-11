@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./savannah.css";
+import "./Savannah.css";
 import { useNavigate } from "react-router-dom";
 
 const sav1annah = () => {
